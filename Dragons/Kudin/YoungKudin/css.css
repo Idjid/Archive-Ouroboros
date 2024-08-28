@@ -1,0 +1,44 @@
+body {
+    background: url("img/v4.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Pompadur, 'Comic Sans MS', cursive;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    max-width: 70%;
+    max-height: 80%;
+    margin: 40px;
+}
+
+.text-center {
+    text-align: center;
+    font-size: 50px;
+    max-width: 70%;
+}
+
+p {
+    max-width: 25em;
+    font-size: large;
+}
+
+h2 {
+    margin: 0;
+}
+
+.block-left{
+    width:60%;
+    height:800px;
+    overflow:auto;
+    float:left;
+}
+.block-right{
+    width:40%;
+    height:800px;
+    overflow:auto;
+}

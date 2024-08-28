@@ -1,0 +1,76 @@
+body {
+    background: url("img/v4.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    /* flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+    max-width: 1400px;
+    margin: 0 auto;*/
+    /* gap: 16px; */
+}
+
+img {
+    max-width: 20%;
+    max-height: 80%;
+    margin: 40px 0 0 45px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 0 black;
+}
+
+.text-center {
+    text-align: center;
+    font-size: 1.5em;
+    max-width: 20%;
+}
+
+p {
+    max-width: 25em;
+    font-size: large;
+}
+
+h3 {
+    margin: 0 0 0 1.75em;
+}
+
+.block-left{
+    width:60%;
+    height:800px;
+    overflow:auto;
+    float:left;
+}
+.block-right{
+    width:40%;
+    height:800px;
+    overflow:auto;
+}
+
+.zoom-effect {
+    transition: transform 0.5s ease;
+}
+  
+.zoom-effect:hover {
+  transform: scale(1.5);
+}
+
+
+.container {
+    overflow: hidden;
+    position: relative;
+}
+  
+.container img {
+    transition: transform 0.5s ease;
+    width: 100%;
+    height: auto;
+}
+  
+.container img:hover {
+    transform: scale(1.25);
+}

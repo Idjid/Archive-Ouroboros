@@ -1,0 +1,46 @@
+body {
+    background: url("v4.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Tahoma;
+}
+
+h1 {
+    text-align: center;
+    margin: auto;
+    font-size: 50px;
+}
+
+label {
+    display: block;
+    margin: 25px 0 0;
+}
+
+fieldset {
+    border: none;
+}
+
+form {
+    width: 70%;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    font-size: 30px;
+}
+
+input, select{
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+    background-color: burlywood;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: burlywood;
+    border-color: black;
+}
